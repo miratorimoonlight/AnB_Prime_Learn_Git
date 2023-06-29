@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mid-page {
+  display: flex;
+  gap: 50px;
+  padding: 100px;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.mid-page .text {
+  color: black;
+  font-weight: bold;
+  padding-bottom: 25px;
+  font-size: 30px;
+}
+section .image {
+  width: 1000px;
+  height: 100%;
+}
+section .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 75px;
+}
+section div h1 {
+  font-size: 40px;
+}
+section div .text2 {
+  color: gray;
+  padding: 2px;
+  font-size: 18px;
+  margin: 23px auto;
+}
+section .bottom-svg {
+  display: flex;
+  justify-content: space-between;
+  margin: 75px auto;
+}
+
+.mid-page img {
+  width: 300px !important;
+  height: 500px !important;
+  object-fit: cover !important;
+}
+.svg2 {
+  width: 76px !important;
+}
+.svg-content {
+  display: flex;
+  justify-content: space-around;
+  margin: -8px auto;
+}
+.text-bot-svg {
+  display: flex;
+  gap: 15px;
+}
+.number {
+  font-size: 42px;
+  font-size: bold;
+}
+.zeus {
+  font-size: 16px;
+  width: 10px;
+  font-family: sans-serif;
+}
+.svg2 {
+  color: red;
+}
+@media (max-width: 1000px) {
+  .mid-page {
+    display: grid;
+    width: 500px;
+    margin: 0 auto;
+  }
+  .mid-page .image {
+    display: grid;
+    place-items: center;
+    width: 500px;
+  }
+  .mid-page .image img {
+    display: grid;
+    height: 100% !important;
+    width: 400px !important;
+  }
+  .mid-page .svg-content {
+    display: grid;
+  }
+  .mid-page .svg-content .zeus {
+    display: grid;
+    align-items: flex-end;
+    font-size: 10px;
+  }
+  .mid-page .svg-content {
+    gap: 40px;
+  }
+  .mid-page .text {
+    text-align: center;
+  }
+  .mid-page div h1 {
+    text-align: center;
+  }
+  section div .text2 {
+    text-align: center;
+  }
+  .number {
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .mid-page .svg-content {
+    display: grid;
+    place-items: center;
+  }
+  .text-bot-svg {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .mid-page .svg-content .zeus {
+    font-size: 16px;
+    /* width: 40px; */
+  }
+  .zeus {
+    width: unset;
+  }
+}
