@@ -1,0 +1,13 @@
+RULE :
+Variable had to be real , for example u want to make Variable name so :
+Let name = 'Your name ';
+Dont:
+Let a1 = 'Your name'
+
+Primitives/value Types :         Reference Types
+  .String                         .Object
+  .Number                         .Array
+  .Boolen                         .Function
+  .undefined
+  .null
+
